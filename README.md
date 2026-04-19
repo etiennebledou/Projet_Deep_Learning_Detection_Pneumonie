@@ -15,10 +15,10 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 - Comparer plusieurs architectures de Deep Learning
 
 
-# Etape1 : CONFIGURATION DE L'ENVIRONNEMENT & IMPORTATION DES BIBLIOTHEQUES
+# BRANCHE 01 : CONFIGURATION DE L'ENVIRONNEMENT & IMPORTATION DES BIBLIOTHEQUES
 
  
-# Etape2: CHARGEMENT DU DATASET VIA KAGGLE API
+# BRANCHE 02: CHARGEMENT DU DATASET VIA KAGGLE API
 - Le projet utilise le dataset : Chest X-Ray Pneumonia
 - Images de radiographies thoraciques
 - Deux classes : NORMAL et PNEUMONIA
@@ -31,7 +31,7 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 
 
 
-# ETAPE3 : ANALYSE EXPLORATOIRE (EDA)
+# BRANCHE 03 : ANALYSE EXPLORATOIRE (EDA)
 - Distribution des classes
 - Visualisation des images
 - Analyse du déséquilibre
@@ -40,7 +40,7 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 
 
 
-# ETAPE4 : PRETRAITEMENT DES DONNEES
+# BRANCHE 04 : PRETRAITEMENT DES DONNEES
 - Conversion en niveaux de gris
 - Amélioration du contraste (CLAHE)
 - Redimensionnement (224x224)
@@ -49,7 +49,7 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 
 
 
-# ETAPE5 : GAN : REEQUILIBRAGE PAR GENERATION SYNTHETIQUE/ GESTION DU DESEQUILIBRE
+# BRANCHE 05 : GAN : REEQUILIBRAGE PAR GENERATION SYNTHETIQUE/ GESTION DU DESEQUILIBRE
   
   Méthodes utilisées :
 - Focal Loss
@@ -58,7 +58,7 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 
 
 
-# ETAPE6 : MODELISATION
+# BRANCHE 06 : MODELISATION
 
 Modèles utilisés
 - CNN Baseline
@@ -75,7 +75,7 @@ Méthodes d’entraînement
 
 
 
-# ETAPE7: ÉVALUATION
+# BRANCHE 07: ÉVALUATION
 
 Métriques utilisées :
 - Recall (prioritaire)
@@ -86,7 +86,7 @@ Métriques utilisées :
 
 
 
-# ETAPE8:  EXPLICABILITE (XAI)
+# BRANCHE 08:  EXPLICABILITE (XAI)
 
 Utilisation de Grad-CAM pour :
 - Visualiser les zones importantes de l’image
@@ -94,7 +94,7 @@ Utilisation de Grad-CAM pour :
 - Vérifier la cohérence médicale
 
 
-# ETAPE9: OPTIMISATION 
+# BRANCHE 09: OPTIMISATION 
 
 - Optimisation des hyperparamètres avec Optuna
 - Ajustement du seuil de classification
