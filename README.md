@@ -74,7 +74,7 @@ Méthodes d’entraînement
 - Learning Rate Scheduler
 
 
-# BRANCHE 08:  EXPLICABILITE (XAI)
+# BRANCHE 07:  EXPLICABILITE (XAI)
 
 Utilisation de Grad-CAM pour :
 - Visualiser les zones importantes de l’image
@@ -82,14 +82,14 @@ Utilisation de Grad-CAM pour :
 - Vérifier la cohérence médicale
 
 
-# BRANCHE 07: ÉVALUATION
+# BRANCHE 08: ÉVALUATION
 
 Métriques utilisées :
 - Recall (prioritaire)
 - Precision
 - AUC
 - Matrice de confusion
- - Important : L’accuracy n’est pas utilisée seule car elle est trompeuse en cas de déséquilibre.
+- Important : L’accuracy n’est pas utilisée seule car elle est trompeuse en cas de déséquilibre.
 
 
 # BRANCHE 09: OPTIMISATION 
