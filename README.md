@@ -15,10 +15,10 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 - Comparer plusieurs architectures de Deep Learning
 
 
-# BRANCHE 01 : CONFIGURATION DE L'ENVIRONNEMENT & IMPORTATION DES BIBLIOTHEQUES
+# Branche 01 : Configuration de l'environnement & Importation des bibliothèques
 
  
-# BRANCHE 02: CHARGEMENT DU DATASET VIA KAGGLE API
+# Branche 02: Chargement du dataset provenant de Kaggle
 - Le projet utilise le dataset : Chest X-Ray Pneumonia
 - Images de radiographies thoraciques
 - Deux classes : NORMAL et PNEUMONIA
@@ -31,7 +31,7 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 
 
 
-# BRANCHE 03 : ANALYSE EXPLORATOIRE (EDA)
+# Branche 03 : Analyse Exploratoire (EDA)
 - Distribution des classes
 - Visualisation des images
 - Analyse du déséquilibre
@@ -40,7 +40,7 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 
 
 
-# BRANCHE 04 : PRETRAITEMENT DES DONNEES
+# Branche 04 : Prétraitement des données
 - Conversion en niveaux de gris
 - Amélioration du contraste (CLAHE)
 - Redimensionnement (224x224)
@@ -49,16 +49,15 @@ L’objectif principal est de construire un système fiable d’aide au diagnost
 
 
 
-# BRANCHE 05 : GAN : REEQUILIBRAGE PAR GENERATION SYNTHETIQUE/ GESTION DU DESEQUILIBRE
-  
-  Méthodes utilisées :
+# Branche 05 : GAN : Gestion du deséquilibre / reéquilibrage par génération synthétique
+- Méthodes utilisées :
 - Focal Loss
 - Data Augmentation
 - Génération d’images via GAN (DCGAN)
 
 
 
-# BRANCHE 06 : MODELISATION
+# Branche 06 : Modélisation
 
 Modèles utilisés
 - CNN Baseline
@@ -74,7 +73,7 @@ Méthodes d’entraînement
 - Learning Rate Scheduler
 
 
-# BRANCHE 07:  EXPLICABILITE (XAI)
+# Branche 07:  Explicabilité (XAI)
 
 Utilisation de Grad-CAM pour :
 - Visualiser les zones importantes de l’image
@@ -82,7 +81,7 @@ Utilisation de Grad-CAM pour :
 - Vérifier la cohérence médicale
 
 
-# BRANCHE 08: ÉVALUATION
+# Branche 08: Évaluation du Modèle
 
 Métriques utilisées :
 - Recall (prioritaire)
@@ -92,7 +91,7 @@ Métriques utilisées :
 - Important : L’accuracy n’est pas utilisée seule car elle est trompeuse en cas de déséquilibre.
 
 
-# BRANCHE 09: OPTIMISATION 
+# Branche 09: Optimisation
 
 - Optimisation des hyperparamètres avec Optuna
 - Ajustement du seuil de classification
@@ -157,4 +156,17 @@ Métriques utilisées :
 
 
  Remarque
-- Ce projet illustre l’application du Deep Learning dans le domaine médical, avec une attention particulière portée à la fiabilité, à l’interprétabilité et aux enjeux éthiques.
+- Ce projet a permis de développer un modèle de détection automatique de la pneumonie à partir de radiographies pulmonaires en combinant des techniques avancées de deep learning comm:
+- CLAHE, normalisation 
+- l’augmentation de données et le GAN 
+- modèle hybride  optimisé avec fine-tuning et Optuna. 
+
+Les résultats obtenus sont très satisfaisants :
+- AUC ROC : 0.9736 
+- Accuracy : 91.19% 
+- Recall pneumonie élevé (0.97) garantissant peu de cas manqués
+- Gain de +10.3 points sur le recall des cas normaux avec l’optimisation
+
+Ce projet illustre comment une approche rigoureuse en data science peut contribuer à améliorer la détection précoce de maladies et soutenir les professionnels de santé.
+<img width="2510" height="482" alt="image" src="https://github.com/user-attachments/assets/d3c73a83-9854-4b84-be89-8381cc02f898" />
+
