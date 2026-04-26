@@ -168,5 +168,4 @@ Les résultats obtenus sont très satisfaisants :
 - Gain de +10.3 points sur le recall des cas normaux avec l’optimisation
 
 Ce projet illustre comment une approche rigoureuse en data science peut contribuer à améliorer la détection précoce de maladies et soutenir les professionnels de santé.
-<img width="2510" height="482" alt="image" src="https://github.com/user-attachments/assets/d3c73a83-9854-4b84-be89-8381cc02f898" />
 
