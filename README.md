@@ -108,11 +108,9 @@ Métriques utilisées :
 - Risque d’overfitting
 
  
- Améliorations possibles
+ Améliorations possibles:Plusieurs améliorations ont été faites, permettant ainsi de maitraiser l'overfitting. On peut tout de même ajouter:
 - Validation croisée (K-Fold)
-- Utilisation d’un dataset externe
 - Calibration des probabilités
-- Déploiement en application web (Streamlit / API)
 
 
  Technologies utilisées
